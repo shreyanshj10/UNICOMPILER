@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 2000px;
+    background: #edf2fc;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #606163;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.btn{
+    background: blue;
+    border-radius: 5px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+}
+.btn:hover{
+    background: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.info h1{
+    font-size: 40px;
+    color: #444242;
+}
+.info h1 span{
+   color: blue;
+}
+.info p{
+    color: #606163;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.img1{
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+.img1 img{
+    height: 50%;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    border-radius: 30%;
+}
+.img1:hover img{
+    bottom: 40px;
+}
+/* .img1:hover img{
+    left: 54%;
+} */
+.social{
+    margin-left: 8%;
+    margin-top: 25px;
+}
+.social a{
+    font-size: 28px;
+    color: #606163;
+    margin-right: 20px;
+}
+.social a:hover{
+    color: blue;
+}
+.social h2{
+    font-size: 30px;
+    margin: 43px 0px;
+}
+.yes{
+    margin-top: 12px;
+}
+.skill {
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 41px;
+}
+.cont h1{
+    margin: 45px 0px;
+}
+.sk img{
+    width: 100px;
+    margin-right:  23px;
+}
+.edu{
+margin-top:2px;
+}
+.hob{
+margin-top:2px;
+}  
+.form{
+    display:block;
+    margin: 17px 13px;
+    padding: 7px 27px;
+    border-radius: 10px;
+    background-color: #c4d3f3;
+    width: 500px;
+}
